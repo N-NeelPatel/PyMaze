@@ -704,6 +704,6 @@ class Maze:
         '''
 
         # for generating the gif of the solution
-        # self._win.after(100, self.capture_screenshots, 25, [])
+        self._win.after(100, self.capture_screenshots, 25, [])
 
         self._win.mainloop()
